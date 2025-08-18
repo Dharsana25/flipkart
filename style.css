@@ -1,3 +1,204 @@
-.body{
-    background-color: aliceblue;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.plus-text {
+    font-size: 12px;
+    color: gray;
+    margin-top: -5px;
+}
+
+.plus-highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Search */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 20px;
+    max-width: 600px;
+}
+
+.search-icon {
+    color: gray;
+    margin-right: 10px;
+}
+
+.search {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    outline: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.droup {
+    padding: 6px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.category-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #000;
+    text-align: center;
+    width: 80px;
+}
+
+.category img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.category span {
+    margin-top: 8px;
+    font-size: 14px;
+}
+.mobile{
+    background-color: white;
+    margin-top: 20px;
+   
+    padding: 0px;
+   
+} 
+h2 {
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px;
+    padding: 0 20px 20px 20px;
+   
+}
+.product img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;  
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.toys{
+    margin-top: 20px;
+    background-color: white;
+    padding: 0px;
+   
+}
+h2 {
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.food {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px;
+    padding: 0 20px 20px 20px;
+   
+}
+.beauty img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;  
+}
+p{
+    text-align: center;
+}
+.fashion{
+   
+    margin-top: 20px;
+    background-color: white;
+    padding: 0px;
+   
+}
+h2 {
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.wear {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px;
+    padding: 0 20px 20px 20px;
+   
+}
+.men img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;  
+}
+p{
+    text-align: center;
+}
+
+
