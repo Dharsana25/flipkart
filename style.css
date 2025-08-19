@@ -26,6 +26,18 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+.plus-text {
+    font-size: 12px;
+    color: gray;
+    margin-top: -5px;
+}
+
+.plus-highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+
 .search-container {
     display: flex;
     align-items: center;
@@ -116,7 +128,6 @@ h2 {
 }
 .section {
     display: flex;
-    overflow-x: auto;
     gap: 100px;
     padding: 0 20px 20px 20px;
    
@@ -146,7 +157,6 @@ h2 {
 }
 .food {
     display: flex;
-    overflow-x: auto;
     gap: 100px;
     padding: 0 20px 20px 20px;
    
@@ -160,11 +170,9 @@ p{
     text-align: center;
 }
 .fashion{
-   
     margin-top: 20px;
     background-color: white;
-    padding: 0px;
-   
+    padding: 0px;  
 }
 h2 {
     text-align: left;
@@ -175,7 +183,6 @@ h2 {
 }
 .wear {
     display: flex;
-    overflow-x: auto;
     gap: 100px;
     padding: 0 20px 20px 20px;
    
@@ -188,5 +195,39 @@ h2 {
 p{
     text-align: center;
 }
+.sales {
+    width: 400px;
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 2px 3px white;
+  
+}
+h1 {
+  text-align: left;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.offers{
+   width: calc(50% - 10px); 
+  box-sizing: border-box;
+} 
+.offers img {
+    box-shadow: 0 1px 2px ;
+  width: 50%;       
+  height: auto;     
+}
+.offers p{
+    text-align: center;
+    margin-right: 100px;
+    color: green;
+    margin-top: 0px;
+}
 
